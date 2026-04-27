@@ -10,3 +10,7 @@ app.get("/", (req, res) => {
     res.send("Hello World! Test file added");
 });
 
+app.get("/test", (req, res) => {
+    res.send("Test endpoint");
+});
+
